@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Donkers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>  
+    <section class="sub-header">
+        <nav>
+            <a style="color: white" href="index.html"><h2 style="font-family: 'Merriweather', serif">Alex Donkers</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="publications.html">PUBLICATIONS</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="stories.html">STORIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Stories</h1>
+
+    </section>
+
+<!-- Content -->
+
+<section class="stories">
+
+    <div class="row">
+           <h1>Stories I'd like to share with you</h1>
+    </div>   
+
+    <div class="row">
+        <div class="stories-col" style="color: white; background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)),url(images/hackMYCITY.png);; height: 300px">
+            <div class="stories-content">
+                <a href="stories/hackmycity.html" style="display:flex">
+                    <h3 style="font-family: 'Merriweather', serif">#hackMYCITY</h3>
+                </a>          
+                <p style="color: white">Digital Twin Hackathon Johannesburg</p>
+            </div>
+        </div>
+
+        <div class="stories-col" style="color: white; background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)),url(images/dtpi.png);; height: 300px">
+            <div class="stories-content">
+                <a href="stories/dtpi2022.html" style="display:flex">
+                    <h3 style="font-family: 'Merriweather', serif">DTPI</h3>
+                </a>                
+                <p style="color: white">Presenting at IEEE DTPI2022</p>
+            </div>
+        </div>
+
+        <div class="stories-col" style="color: white; background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)),url(images/Mintal.png);; height: 300px">
+            <div class="stories-content">
+                <a href="stories/dtpi2022.html" style="display:flex">
+                    <h3 style="font-family: 'Merriweather', serif">Mintal</h3>
+                </a>          
+                <p style="color: white">Enabling occupant-feedback using a smartwatch</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>Let's connect!</h4>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/alexdonkers/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.github.com/AlexDonkers/" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.tue.nl/en/research/researchers/alex-donkers/" target="_blank"><i class="fa fa-address-card"></i></a>
+    </div>
+    <p>©2022 Alex Donkers</p>
+</section>
+    <!-------- JavaScript for Toggle Menu--------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

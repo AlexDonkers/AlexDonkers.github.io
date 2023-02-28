@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Donkers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>  
+    <section class="sub-header">
+        <nav>
+            <a style="color: white" href="index.html"><h2 style="font-family: 'Merriweather', serif">Alex Donkers</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="publications.html">PUBLICATIONS</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="stories.html">STORIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Resources</h1>
+
+    </section>
+
+<!-- Content -->
+
+<section class="resource">
+    <h1>Ontologies</h1>
+    <p>A selection of ontologies that I either created or contributed to.</p>
+    <div class="row">
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/bop/main/docs/resources/bop_header.png)">
+            <h3>Building Performance Ontology</h3>
+            <a href="https://w3id.org/bop#" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://alexdonkers.github.io/bop/ontology.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/ofo/main/docs/resources/ofo_header.png)">
+            <h3>Occupant Feedback Ontology</h3>
+            <a href="https://w3id.org/ofo#" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://alexdonkers.github.io/ofo/ofo.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/bao/main/docs/resources/header.png)">
+            <h3>Building Assessment Ontology</h3>
+            <a href="https://alexdonkers.github.io/bao" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://alexdonkers.github.io/bao/ontology.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="resource-col" style="background-color: grey">
+            <h3>DDSS Ontology</h3>
+            <p>by Chiel van der Pas</p>
+            <a href="https://chielvanderpas.github.io/ddss-ontology/" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://chielvanderpas.github.io/ddss-ontology/ontology.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>       
+        <div class="resource-col" style="background-color: grey">
+            <h3>Occupant Property Taxonomy</h3>
+            <p></p>
+            <a href="https://raw.githubusercontent.com/AlexDonkers/opt/main/docs/opt.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+    </div>
+
+    <h1>Open data</h1>
+    <p>A selection of open datasets.</p>
+    <div class="row">
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/bop/main/docs/resources/bop_header.png)">
+            <h3>Open Smart Home</h3>
+            <a href="https://github.com/AlexDonkers/bop/blob/main/docs/OpenSmartHome/openSmartHome_Donkers.ttl" target="_blank" class="white-btn">TTL</a>
+            <a href="https://github.com/AlexDonkers/bop/blob/main/docs/OpenSmartHome/openSmartHome_Donkers.rvt" target="_blank" class="white-btn">RVT</a>
+            <a href="https://github.com/AlexDonkers/bop/blob/main/docs/OpenSmartHome/openSmartHome_Donkers.gltf" target="_blank" class="white-btn">GLTF</a>
+            <a href="https://github.com/AlexDonkers/bop/blob/main/docs/OpenSmartHome/openSmartHome_Donkers.dae" target="_blank" class="white-btn">DAE</a><br><br>
+            <a href="https://github.com/AlexDonkers/bop/blob/main/docs/OpenSmartHome/openSmartHome_SensorData_Donkers.zip" target="_blank" class="white-btn">Sensor Data</a>
+
+        </div>
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/ofo/main/docs/resources/ofo_header.png)">
+            <h3>Open Flat</h3>
+            <a href="https://w3id.org/ofo#" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://alexdonkers.github.io/ofo/ofo.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+        <div class="resource-col" style="background-image: url(https://raw.githubusercontent.com/AlexDonkers/bao/main/docs/resources/header.png)">
+            <h3>Open Family Home</h3>
+            <a href="https://alexdonkers.github.io/bao" target="_blank" class="white-btn">Take me there!</a> 
+            <a href="https://alexdonkers.github.io/bao/ontology.ttl" target="_blank" class="white-btn">TTL</a>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>Let's connect!</h4>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/alexdonkers/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.github.com/AlexDonkers/" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.tue.nl/en/research/researchers/alex-donkers/" target="_blank"><i class="fa fa-address-card"></i></a>
+    </div>
+    <p>©2022 Alex Donkers</p>
+</section>
+    <!-------- JavaScript for Toggle Menu--------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
